@@ -1,0 +1,20 @@
+<html>
+<head>
+</style>
+</head>
+<body>
+    <h1>Flask-Markdown Demo</h1>
+    {% filter markdown %}
+    
+    {{text2}}
+    {% endfilter %}
+    <!--{% if text or text2 %}
+    <div>
+        <p>Received text was:</p>
+        <pre>{{ text }}</pre>
+        <pre>{{ text2 }}</pre>
+    </div>
+    <hr>
+    {% endif %}-->
+</body>
+</html>
